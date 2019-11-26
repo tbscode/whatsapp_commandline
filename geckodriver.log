@@ -1,0 +1,571 @@
+1574793216115	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMjUCI6"
+1574793218258	Marionette	INFO	Listening on port 35689
+1574793218382	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 'getenv' needs native messenger version >= 0.1.2.
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 475: TypeError: this.cloneScope is null
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x570005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x570024,name=PHttpChannel::Msg_SetPriority) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x370124,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+
+[Parent 19496, Gecko_IOThread] WARNING: pipe error (110): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 19496, Gecko_IOThread] WARNING: pipe error (43): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1574793266578	Marionette	INFO	Stopped listening on port 35689
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1574793275347	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevqullJ"
+1574793277317	Marionette	INFO	Listening on port 43811
+1574793277354	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 'getenv' needs native messenger version >= 0.1.2.
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 475: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+[Parent 20205, Gecko_IOThread] WARNING: pipe error (118): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x370124,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+
+[Parent 20205, Gecko_IOThread] WARNING: pipe error (52): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1574793346542	Marionette	INFO	Stopped listening on port 43811
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1574793419944	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilev4Rh1N"
+1574793421725	Marionette	INFO	Listening on port 42325
+1574793421752	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 'getenv' needs native messenger version >= 0.1.2.
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 475: TypeError: this.cloneScope is null
+JavaScript error: moz-extension://2e35b306-7fa1-4fd7-ae25-a895662e29a6/commandline_frame.js, line 11695: TypeError: browser.storage is undefined
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+[Parent 21683, Gecko_IOThread] WARNING: pipe error (112): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 21683, Gecko_IOThread] WARNING: pipe error (43): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1574793492270	Marionette	INFO	Stopped listening on port 42325
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1574793497741	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiledWqVHX"
+1574793499808	Marionette	INFO	Listening on port 40953
+1574793499855	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 'getenv' needs native messenger version >= 0.1.2.
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 475: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+SourceActor threw an exception: [Exception... "Failed to open input source 'file:///'"  nsresult: "0x80520015 (NS_ERROR_FILE_ACCESS_DENIED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 678"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:678:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:530:10
+_fetchURLContents@resource://devtools/server/actors/utils/TabSources.js:580:22
+urlContents@resource://devtools/server/actors/utils/TabSources.js:547:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2033:69
+addAllSources@resource://devtools/server/actors/thread.js:1334:14
+onSources@resource://devtools/server/actors/thread.js:1340:10
+onPacket@resource://devtools/server/debugger-server-connection.js:378:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 678, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'file:////2e35b306-7fa1-4fd7-ae25-a895662e29a6/commandline_frame.js'"  nsresult: "0x80520015 (NS_ERROR_FILE_ACCESS_DENIED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 678"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:678:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:530:10
+_fetchURLContents@resource://devtools/server/actors/utils/TabSources.js:580:22
+urlContents@resource://devtools/server/actors/utils/TabSources.js:547:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2033:69
+addAllSources@resource://devtools/server/actors/thread.js:1334:14
+onSources@resource://devtools/server/actors/thread.js:1340:10
+onPacket@resource://devtools/server/debugger-server-connection.js:378:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 678, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 678: NS_ERROR_FILE_ACCESS_DENIED: Failed to open input source 'file:///'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 678: NS_ERROR_FILE_ACCESS_DENIED: Failed to open input source 'file:////2e35b306-7fa1-4fd7-ae25-a895662e29a6/commandline_frame.js'
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x570005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x570024,name=PHttpChannel::Msg_SetPriority) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x370124,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+
+[Parent 22582, Gecko_IOThread] WARNING: pipe error (118): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 22582, Gecko_IOThread] WARNING: pipe error (43): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1574793576204	Marionette	INFO	Stopped listening on port 40953
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1574793583534	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilezF8t2c"
+1574793585544	Marionette	INFO	Listening on port 38829
+1574793585853	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 'getenv' needs native messenger version >= 0.1.2.
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 475: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+[Parent 23420, Gecko_IOThread] WARNING: pipe error (117): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x570005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x570024,name=PHttpChannel::Msg_SetPriority) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x370124,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+
+[Parent 23420, Gecko_IOThread] WARNING: pipe error (51): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1574793661294	Marionette	INFO	Stopped listening on port 38829
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1574793668828	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileuimJYX"
+1574793670877	Marionette	INFO	Listening on port 46369
+1574793671115	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 'getenv' needs native messenger version >= 0.1.2.
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 475: TypeError: this.cloneScope is null
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+[Parent 24600, Gecko_IOThread] WARNING: pipe error (118): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 24600, Gecko_IOThread] WARNING: pipe error (51): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x370124,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+
+1574793702798	Marionette	INFO	Stopped listening on port 46369
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1574793710073	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilekOzvP1"
+1574793712192	Marionette	INFO	Listening on port 35437
+1574793712462	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 'getenv' needs native messenger version >= 0.1.2.
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript error: resource://gre/modules/NativeMessaging.jsm, line 298: TypeError: this.proc is null
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: moz-extension://2e35b306-7fa1-4fd7-ae25-a895662e29a6/commandline_frame.js, line 11695: TypeError: browser.storage is undefined
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 475: TypeError: this.cloneScope is null
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+SourceActor threw an exception: [Exception... "Failed to open input source 'file:///'"  nsresult: "0x80520015 (NS_ERROR_FILE_ACCESS_DENIED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 678"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:678:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:530:10
+_fetchURLContents@resource://devtools/server/actors/utils/TabSources.js:580:22
+urlContents@resource://devtools/server/actors/utils/TabSources.js:547:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2033:69
+addAllSources@resource://devtools/server/actors/thread.js:1334:14
+onSources@resource://devtools/server/actors/thread.js:1340:10
+onPacket@resource://devtools/server/debugger-server-connection.js:378:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 678, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 678: NS_ERROR_FILE_ACCESS_DENIED: Failed to open input source 'file:///'
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+SourceActor threw an exception: [Exception... "Failed to open input source 'file:///'"  nsresult: "0x80520015 (NS_ERROR_FILE_ACCESS_DENIED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 678"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:678:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:530:10
+_fetchURLContents@resource://devtools/server/actors/utils/TabSources.js:580:22
+urlContents@resource://devtools/server/actors/utils/TabSources.js:547:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2033:69
+addAllSources@resource://devtools/server/actors/thread.js:1334:14
+onSources@resource://devtools/server/actors/thread.js:1340:10
+onPacket@resource://devtools/server/debugger-server-connection.js:378:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 678, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 678: NS_ERROR_FILE_ACCESS_DENIED: Failed to open input source 'file:///'
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+[Parent 25274, Gecko_IOThread] WARNING: pipe error (43): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 25274, Gecko_IOThread] WARNING: pipe error (116): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1574793985942	Marionette	INFO	Stopped listening on port 35437
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1574793993665	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilebOM0Lu"
+1574793995609	Marionette	INFO	Listening on port 34757
+1574793995715	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 'getenv' needs native messenger version >= 0.1.2.
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 475: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x370124,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+
+[Parent 28401, Gecko_IOThread] WARNING: pipe error (121): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 28401, Gecko_IOThread] WARNING: pipe error (43): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1574794017426	Marionette	INFO	Stopped listening on port 34757
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1574794040950	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiled5MeQ1"
+1574794042913	Marionette	INFO	Listening on port 37867
+1574794042960	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 'getenv' needs native messenger version >= 0.1.2.
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 475: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x37010E,name=PContent::Msg_ReportContentBlockingLog) Closed channel: cannot send/recv
+
+[Parent 29166, Gecko_IOThread] WARNING: pipe error (117): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 29166, Gecko_IOThread] WARNING: pipe error (43): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x370124,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+
+1574794082339	Marionette	INFO	Stopped listening on port 37867
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1574794089957	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3SGEjT"
+1574794091920	Marionette	INFO	Listening on port 41165
+1574794091973	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 'getenv' needs native messenger version >= 0.1.2.
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 475: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+SourceActor threw an exception: [Exception... "Failed to open input source 'file:///'"  nsresult: "0x80520015 (NS_ERROR_FILE_ACCESS_DENIED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 678"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:678:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:530:10
+_fetchURLContents@resource://devtools/server/actors/utils/TabSources.js:580:22
+urlContents@resource://devtools/server/actors/utils/TabSources.js:547:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2033:69
+addAllSources@resource://devtools/server/actors/thread.js:1334:14
+onSources@resource://devtools/server/actors/thread.js:1340:10
+onPacket@resource://devtools/server/debugger-server-connection.js:378:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 678, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 678: NS_ERROR_FILE_ACCESS_DENIED: Failed to open input source 'file:///'
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+[Parent 30035, Gecko_IOThread] WARNING: pipe error (102): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 30035, Gecko_IOThread] WARNING: pipe error (114): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 30035, Gecko_IOThread] WARNING: pipe error (43): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1574794558620	Marionette	INFO	Stopped listening on port 41165
+1574794565784	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilej167yW"
+1574794567649	Marionette	INFO	Listening on port 38211
+1574794567700	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 'getenv' needs native messenger version >= 0.1.2.
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript error: resource://gre/modules/NativeMessaging.jsm, line 298: TypeError: this.proc is null
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 475: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: moz-extension://2e35b306-7fa1-4fd7-ae25-a895662e29a6/commandline_frame.js, line 11695: TypeError: browser.storage is undefined
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+console.error: (new TypeError("http://%(server)s/dummy/blocklist// is not a valid URL.", "resource://services-settings/Attachments.jsm", 121))
+[Parent 2416, Gecko_IOThread] WARNING: pipe error (170): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 2416, Gecko_IOThread] WARNING: pipe error (117): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 2416, Gecko_IOThread] WARNING: pipe error (51): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1574794758583	Marionette	INFO	Stopped listening on port 38211
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1574794969198	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileXt8P0R"
+1574794971125	Marionette	INFO	Listening on port 39983
+1574794971424	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 'getenv' needs native messenger version >= 0.1.2.
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 475: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+[Parent 9108, Gecko_IOThread] WARNING: pipe error (124): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x570005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x570024,name=PHttpChannel::Msg_SetPriority) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x370124,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+
+[Parent 9108, Gecko_IOThread] WARNING: pipe error (43): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1574795023784	Marionette	INFO	Stopped listening on port 39983
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1574795070430	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWHfTZb"
+1574795072368	Marionette	INFO	Listening on port 39479
+1574795072458	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 'getenv' needs native messenger version >= 0.1.2.
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 475: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+console.error: (new TypeError("http://%(server)s/dummy/blocklist// is not a valid URL.", "resource://services-settings/Attachments.jsm", 121))
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x37010E,name=PContent::Msg_ReportContentBlockingLog) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x370124,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+
+[Parent 9879, Gecko_IOThread] WARNING: pipe error (112): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 9879, Gecko_IOThread] WARNING: pipe error (43): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1574795110827	Marionette	INFO	Stopped listening on port 39479
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1574795202411	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCeEV7I"
+1574795204319	Marionette	INFO	Listening on port 42965
+JavaScript error: , line 0: uncaught exception: 'getenv' needs native messenger version >= 0.1.2.
+1574795204636	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 475: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+console.error: (new TypeError("http://%(server)s/dummy/blocklist// is not a valid URL.", "resource://services-settings/Attachments.jsm", 121))
+[Parent 10809, Gecko_IOThread] WARNING: pipe error (117): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x370124,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+
+[Parent 10809, Gecko_IOThread] WARNING: pipe error (51): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1574795277023	Marionette	INFO	Stopped listening on port 42965
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1574795294295	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5qWc8K"
+1574795296349	Marionette	INFO	Listening on port 45799
+1574795296423	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 'getenv' needs native messenger version >= 0.1.2.
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 475: TypeError: this.cloneScope is null
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+console.error: (new TypeError("http://%(server)s/dummy/blocklist// is not a valid URL.", "resource://services-settings/Attachments.jsm", 121))
+[Parent 11712, Gecko_IOThread] WARNING: pipe error (113): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 11712, Gecko_IOThread] WARNING: pipe error (43): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1574797145995	Marionette	INFO	Stopped listening on port 45799
