@@ -6,6 +6,7 @@ Command line tool to schedule send of whats-app messages.
 
 - well so far only sends messages
 - but it will be able to schedule them
+- *only works with cookies enabled*
 
 ## How it works:
 
@@ -14,6 +15,10 @@ It uses your current browser profile ( firefox / chrome )  to send messages usin
 - Doesn't require login
 - Just a browser with enables cookies and cache
   and logged in to whatsapp web
+
+1. Login to whatapp web with your browser
+2. check the keep logged in box
+3. close the browser: done
 
 ## Usage
 
@@ -39,3 +44,4 @@ optional arguments:
 
 - selenium
 - chrome of firefox
+- and the chrome / [firefox](https://github.com/mozilla/geckodriver/releases) driver has to be in your ` $PATH `

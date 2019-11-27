@@ -1,5 +1,6 @@
 import selenium
 import unittest
+import unittest
 import argparse
 from selenium import webdriver
 # pyvirtualvin if using chrome
@@ -88,24 +89,33 @@ if __name__ == '__main__':
     if output:
         print("starting")
     parser = argparse.ArgumentParser()
-    parser.add_argument("send",help="send a message",default=True)
+    parser.add_argument("action",help="send a message",default="send")
     parser.add_argument("-m", help="message")
     parser.add_argument("-to", help="contact: by name")
 
     parser.add_argument("--browser", help="set browser firefox (default) / chrome", default="firefox")
     parser.add_argument("--visible", help="should the botted browser be visible when run then add this option",nargs='?',type=int, const=1)
+    parser.add_argument("--timeout", help="amount of time the bot should try to connect, default is 15 seconds",type=int, default=15)
     args = parser.parse_args()
     print(args)
+    test = unittest.TestCase()
 
     
-    if args.send:
+    if args.action == "send":
         if output:
             print("attempting send");
         # ok then lets send a whatsapp message
-        import unittest
-        test = unittest.TestCase()
         test.assertIsNotNone(args.m, "please add a message to send: -m")
         test.assertIsNotNone(args.to, "please specify who to send the message to: -to ")
 
         args = send_message(args.m,args.to,args.browser,show_window=args.visible)
+    elif args.action == "list":
+        # list available chat contacts
+        out(output, "Attemting to get contacts")
+    elif args.action == "view":
+        # view chat
+        out(output, "attempting to load chat")
+    elif args.action == "shedule message":
+        test.assertIsNotNone(args.m, "please add a message to send: -m")
+        test.assertIsNotNone(args.to, "please specify who to send the message to: -to ")
 
