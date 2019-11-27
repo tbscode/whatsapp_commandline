@@ -4,6 +4,9 @@ experimental python selenium whatsapp bot.
 
 Command line tool to schedule send of whats-app messages.
 
+- well so far only sends messages
+- but it will be able to schedule them
+
 ## How it works:
 
 It uses your current browser profile ( firefox / chrome )  to send messages using your that browsers Whats-App access token.
