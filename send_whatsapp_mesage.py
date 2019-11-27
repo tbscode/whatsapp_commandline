@@ -27,7 +27,7 @@ def wait_for_element_to_appear(func, output=False, **kwargs):
     here used to wait for the whatsapp web app to load
     """
     if output:
-        print("waiting:", end="")
+        print("waiting until element is found:")
     c = 1
     while True:
         time.sleep(1)
@@ -36,7 +36,7 @@ def wait_for_element_to_appear(func, output=False, **kwargs):
           # poll the link with an arbitrary call
           element = func(*tuple(value for _, value in kwargs.items()))
 
-        except Exception as e: print(str(e))
+        except Exception as e: out(str(e),output)
 
         if element is not None:
             print("")
@@ -93,7 +93,7 @@ if __name__ == '__main__':
     parser.add_argument("-to", help="contact: by name")
 
     parser.add_argument("--browser", help="set browser firefox (default) / chrome", default="firefox")
-    parser.add_argument("--visible", help="should the botted browser be visible when run then add this option", default=False)
+    parser.add_argument("--visible", help="should the botted browser be visible when run then add this option",nargs='?',type=int, const=1)
     args = parser.parse_args()
     print(args)
 

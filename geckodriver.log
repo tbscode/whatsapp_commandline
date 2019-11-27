@@ -1291,3 +1291,424 @@ JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2
 JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
 Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
 console.error: (new TypeError("http://%(server)s/dummy/blocklist// is not a valid URL.", "resource://services-settings/Attachments.jsm", 121))
+1574817323714	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTwXc3P"
+*** You are running in headless mode.
+1574817325436	Marionette	INFO	Listening on port 43853
+1574817325572	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 'getenv' needs native messenger version >= 0.1.2.
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 475: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+console.error: (new TypeError("http://%(server)s/dummy/blocklist// is not a valid URL.", "resource://services-settings/Attachments.jsm", 121))
+1574817467321	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejFtMv3"
+*** You are running in headless mode.
+1574817468969	Marionette	INFO	Listening on port 37059
+1574817469058	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 'getenv' needs native messenger version >= 0.1.2.
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 475: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+console.error: (new TypeError("http://%(server)s/dummy/blocklist// is not a valid URL.", "resource://services-settings/Attachments.jsm", 121))
+1574817570914	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiles1xD72"
+*** You are running in headless mode.
+1574817572696	Marionette	INFO	Listening on port 35097
+1574817572735	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 'getenv' needs native messenger version >= 0.1.2.
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1574817594361	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejVNMFc"
+*** You are running in headless mode.
+1574817596224	Marionette	INFO	Listening on port 35143
+1574817596313	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 'getenv' needs native messenger version >= 0.1.2.
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 475: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+1574817602476	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+console.error: (new TypeError("http://%(server)s/dummy/blocklist// is not a valid URL.", "resource://services-settings/Attachments.jsm", 121))
+1574817677332	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVAijvv"
+1574817679295	Marionette	INFO	Listening on port 36401
+1574817679339	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 'getenv' needs native messenger version >= 0.1.2.
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 475: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+1574817690866	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x370124,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+
+[Parent 21874, Gecko_IOThread] WARNING: pipe error (117): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 21874, Gecko_IOThread] WARNING: pipe error (43): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1574817752192	Marionette	INFO	Stopped listening on port 36401
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1574817760939	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileeKoHzq"
+1574817762909	Marionette	INFO	Listening on port 43197
+1574817762949	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 'getenv' needs native messenger version >= 0.1.2.
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheetUsingURIString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 75"  data: no] undefined 75
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:75:12
+cleanup@resource://gre/modules/ExtensionContent.jsm:402:34
+close@resource://gre/modules/ExtensionContent.jsm:925:14
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:1010:19
+observe@resource://gre/modules/ExtensionContent.jsm:1028:27
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:81:9
+cleanup@resource://gre/modules/ExtensionContent.jsm:402:34
+close@resource://gre/modules/ExtensionContent.jsm:925:14
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:1010:19
+observe@resource://gre/modules/ExtensionContent.jsm:1028:27
+]]
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheetUsingURIString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 75"  data: no] undefined 75
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:75:12
+cleanup@resource://gre/modules/ExtensionContent.jsm:402:34
+close@resource://gre/modules/ExtensionContent.jsm:925:14
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:1010:19
+observe@resource://gre/modules/ExtensionContent.jsm:1028:27
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:81:9
+cleanup@resource://gre/modules/ExtensionContent.jsm:402:34
+close@resource://gre/modules/ExtensionContent.jsm:925:14
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:1010:19
+observe@resource://gre/modules/ExtensionContent.jsm:1028:27
+]]
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheetUsingURIString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 75"  data: no] undefined 75
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:75:12
+cleanup@resource://gre/modules/ExtensionContent.jsm:402:34
+close@resource://gre/modules/ExtensionContent.jsm:925:14
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:1010:19
+observe@resource://gre/modules/ExtensionContent.jsm:1028:27
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:81:9
+cleanup@resource://gre/modules/ExtensionContent.jsm:402:34
+close@resource://gre/modules/ExtensionContent.jsm:925:14
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:1010:19
+observe@resource://gre/modules/ExtensionContent.jsm:1028:27
+]]
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheetUsingURIString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 75"  data: no] undefined 75
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:75:12
+cleanup@resource://gre/modules/ExtensionContent.jsm:402:34
+close@resource://gre/modules/ExtensionContent.jsm:925:14
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:1010:19
+observe@resource://gre/modules/ExtensionContent.jsm:1028:27
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:81:9
+cleanup@resource://gre/modules/ExtensionContent.jsm:402:34
+close@resource://gre/modules/ExtensionContent.jsm:925:14
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:1010:19
+observe@resource://gre/modules/ExtensionContent.jsm:1028:27
+]]
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheetUsingURIString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 75"  data: no] undefined 75
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:75:12
+cleanup@resource://gre/modules/ExtensionContent.jsm:402:34
+close@resource://gre/modules/ExtensionContent.jsm:925:14
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:1010:19
+observe@resource://gre/modules/ExtensionContent.jsm:1028:27
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:81:9
+cleanup@resource://gre/modules/ExtensionContent.jsm:402:34
+close@resource://gre/modules/ExtensionContent.jsm:925:14
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:1010:19
+observe@resource://gre/modules/ExtensionContent.jsm:1028:27
+]]
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 226: uncaught exception: Object
+[Parent 22517, Gecko_IOThread] WARNING: pipe error (117): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1574817764004	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1478:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1478:17
+removeAddonMetadata@XPIDatabase.jsm:2250:10
+updateAddonMetadata@XPIDatabase.jsm:2229:10
+updateMetadata@XPIDatabase.jsm:2854:24
+updateExistingAddon@XPIDatabase.jsm:3033:23
+processFileChanges@XPIDatabase.jsm:3120:31
+getNewSideloads@XPIProvider.jsm:2960:28
+1574817764004	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1478:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1478:17
+addToDatabase@XPIDatabase.jsm:2211:10
+updateAddonMetadata@XPIDatabase.jsm:2239:17
+updateMetadata@XPIDatabase.jsm:2854:24
+updateExistingAddon@XPIDatabase.jsm:3033:23
+processFileChanges@XPIDatabase.jsm:3120:31
+getNewSideloads@XPIProvider.jsm:2960:28
+1574817764005	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1478:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1478:17
+makeAddonVisible@XPIDatabase.jsm:2281:10
+applyStartupChange@XPIDatabase.jsm:3355:17
+processFileChanges@XPIDatabase.jsm:3201:14
+getNewSideloads@XPIProvider.jsm:2960:28
+1574817764006	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1478:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1478:17
+makeAddonVisible@XPIDatabase.jsm:2281:10
+applyStartupChange@XPIDatabase.jsm:3355:17
+processFileChanges@XPIDatabase.jsm:3201:14
+getNewSideloads@XPIProvider.jsm:2960:28
+1574817764006	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1478:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1478:17
+makeAddonVisible@XPIDatabase.jsm:2281:10
+applyStartupChange@XPIDatabase.jsm:3355:17
+processFileChanges@XPIDatabase.jsm:3201:14
+getNewSideloads@XPIProvider.jsm:2960:28
+1574817764007	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1478:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1478:17
+makeAddonVisible@XPIDatabase.jsm:2281:10
+applyStartupChange@XPIDatabase.jsm:3355:17
+processFileChanges@XPIDatabase.jsm:3201:14
+getNewSideloads@XPIProvider.jsm:2960:28
+1574817764007	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1478:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1478:17
+makeAddonVisible@XPIDatabase.jsm:2281:10
+applyStartupChange@XPIDatabase.jsm:3355:17
+processFileChanges@XPIDatabase.jsm:3201:14
+getNewSideloads@XPIProvider.jsm:2960:28
+1574817764008	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1478:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1478:17
+makeAddonVisible@XPIDatabase.jsm:2281:10
+applyStartupChange@XPIDatabase.jsm:3355:17
+processFileChanges@XPIDatabase.jsm:3201:14
+getNewSideloads@XPIProvider.jsm:2960:28
+1574817764008	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1478:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1478:17
+makeAddonVisible@XPIDatabase.jsm:2281:10
+applyStartupChange@XPIDatabase.jsm:3355:17
+processFileChanges@XPIDatabase.jsm:3201:14
+getNewSideloads@XPIProvider.jsm:2960:28
+1574817764009	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1478:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1478:17
+makeAddonVisible@XPIDatabase.jsm:2281:10
+applyStartupChange@XPIDatabase.jsm:3355:17
+processFileChanges@XPIDatabase.jsm:3201:14
+getNewSideloads@XPIProvider.jsm:2960:28
+1574817764009	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1478:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1478:17
+makeAddonVisible@XPIDatabase.jsm:2281:10
+applyStartupChange@XPIDatabase.jsm:3355:17
+processFileChanges@XPIDatabase.jsm:3201:14
+getNewSideloads@XPIProvider.jsm:2960:28
+1574817764009	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1478:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1478:17
+makeAddonVisible@XPIDatabase.jsm:2281:10
+applyStartupChange@XPIDatabase.jsm:3355:17
+processFileChanges@XPIDatabase.jsm:3201:14
+getNewSideloads@XPIProvider.jsm:2960:28
+1574817764009	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1478:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1478:17
+makeAddonVisible@XPIDatabase.jsm:2281:10
+applyStartupChange@XPIDatabase.jsm:3355:17
+processFileChanges@XPIDatabase.jsm:3201:14
+getNewSideloads@XPIProvider.jsm:2960:28
+1574817764009	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1478:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1478:17
+makeAddonVisible@XPIDatabase.jsm:2281:10
+applyStartupChange@XPIDatabase.jsm:3355:17
+processFileChanges@XPIDatabase.jsm:3201:14
+getNewSideloads@XPIProvider.jsm:2960:28
+1574817764010	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1478:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1478:17
+makeAddonVisible@XPIDatabase.jsm:2281:10
+applyStartupChange@XPIDatabase.jsm:3355:17
+processFileChanges@XPIDatabase.jsm:3201:14
+getNewSideloads@XPIProvider.jsm:2960:28
+1574817764010	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1478:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1478:17
+makeAddonVisible@XPIDatabase.jsm:2281:10
+applyStartupChange@XPIDatabase.jsm:3355:17
+processFileChanges@XPIDatabase.jsm:3201:14
+getNewSideloads@XPIProvider.jsm:2960:28
+1574817764010	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1478:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1478:17
+makeAddonVisible@XPIDatabase.jsm:2281:10
+applyStartupChange@XPIDatabase.jsm:3355:17
+processFileChanges@XPIDatabase.jsm:3201:14
+getNewSideloads@XPIProvider.jsm:2960:28
+1574817764010	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1478:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1478:17
+makeAddonVisible@XPIDatabase.jsm:2281:10
+applyStartupChange@XPIDatabase.jsm:3355:17
+processFileChanges@XPIDatabase.jsm:3201:14
+getNewSideloads@XPIProvider.jsm:2960:28
+1574817764010	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1478:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1478:17
+makeAddonVisible@XPIDatabase.jsm:2281:10
+applyStartupChange@XPIDatabase.jsm:3355:17
+processFileChanges@XPIDatabase.jsm:3201:14
+getNewSideloads@XPIProvider.jsm:2960:28
+1574817764010	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1478:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1478:17
+makeAddonVisible@XPIDatabase.jsm:2281:10
+applyStartupChange@XPIDatabase.jsm:3355:17
+processFileChanges@XPIDatabase.jsm:3201:14
+getNewSideloads@XPIProvider.jsm:2960:28
+1574817764011	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1478:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1478:17
+makeAddonVisible@XPIDatabase.jsm:2281:10
+applyStartupChange@XPIDatabase.jsm:3355:17
+processFileChanges@XPIDatabase.jsm:3201:14
+getNewSideloads@XPIProvider.jsm:2960:28
+1574817764011	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1478:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1478:17
+makeAddonVisible@XPIDatabase.jsm:2281:10
+applyStartupChange@XPIDatabase.jsm:3355:17
+processFileChanges@XPIDatabase.jsm:3201:14
+getNewSideloads@XPIProvider.jsm:2960:28
+1574817764011	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1478:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1478:17
+makeAddonVisible@XPIDatabase.jsm:2281:10
+applyStartupChange@XPIDatabase.jsm:3355:17
+processFileChanges@XPIDatabase.jsm:3201:14
+getNewSideloads@XPIProvider.jsm:2960:28
+1574817764011	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1478:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1478:17
+makeAddonVisible@XPIDatabase.jsm:2281:10
+applyStartupChange@XPIDatabase.jsm:3355:17
+processFileChanges@XPIDatabase.jsm:3201:14
+getNewSideloads@XPIProvider.jsm:2960:28
+1574817764038	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1478:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1478:17
+processFileChanges@XPIDatabase.jsm:3235:17
+getNewSideloads@XPIProvider.jsm:2960:28
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x370124,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+
+[Parent 22517, Gecko_IOThread] WARNING: pipe error (51): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1574817764318	Marionette	INFO	Stopped listening on port 43197
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1574817775087	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileW1qzN5"
+1574817777099	Marionette	INFO	Listening on port 45601
+1574817777356	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 'getenv' needs native messenger version >= 0.1.2.
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1275: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 475: TypeError: this.cloneScope is null
+JavaScript error: moz-extension://2e35b306-7fa1-4fd7-ae25-a895662e29a6/commandline_frame.js, line 11695: TypeError: browser.storage is undefined
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.fff9477f997fa1246faf.js, line 2: unreachable code after return statement
+1574817788546	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+console.error: (new TypeError("http://%(server)s/dummy/blocklist// is not a valid URL.", "resource://services-settings/Attachments.jsm", 121))
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x570005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x570024,name=PHttpChannel::Msg_SetPriority) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x370124,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+
+[Parent 22854, Gecko_IOThread] WARNING: pipe error (113): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 22854, Gecko_IOThread] WARNING: pipe error (43): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1574817841082	Marionette	INFO	Stopped listening on port 45601
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
