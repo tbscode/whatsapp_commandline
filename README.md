@@ -12,5 +12,9 @@ It uses your current browser profile ( firefox / chrome )  to send messages usin
 
 ## Usage
 
+` whatsappcmd send -m "Whats upp" -to "+49 1523 1094410" `
+
 ## Dependencies
 
+- selenium
+- chrome of firefox

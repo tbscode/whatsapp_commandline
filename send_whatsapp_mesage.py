@@ -1,70 +1,111 @@
 import selenium
+import unittest
+import argparse
 from selenium import webdriver
-
-print("Hooking on user firefox")
-
-import sys
-
-number = "004915231094410"
-message = "Typing a message yeah"
-name = "+49 1523 1094410"
-
-if sys.argv[1] is not None:
-    name = sys.argv[1]
-
-if sys.argv[2] is not None:
-    message = sys.argv[2]
-
+# pyvirtualvin if using chrome
 from pyvirtualdisplay import Display
-
-# display = Display(visible=0, size=(1024, 768))
-# display.start()
-
-options = webdriver.ChromeOptions()
-
-profile_path = "/home/tim/.config/google-chrome/Default"
-exe_path = "/opt/google/chrome/google-chrome"
-
-options.add_argument("--user-data-dir={}".format(profile_path))
-#options.add_argument("--no-startup-window") 
-
-fp = webdriver.FirefoxProfile('/home/tim/.mozilla/firefox/ax36q1xn.default')
-
-driver = webdriver.Firefox(fp)
-
-
-url = 'https://web.whatsapp.com/send?phone={}&text&source&data'.format(number)
-
-driver.get(url)
+# to add --headless inorder of hiding firefox 
+from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.common.keys import Keys
+import os
 import time
 
-print("waiting for load ..")
+# wait and print :)
+def print_wait(t,output):
+    for i in range(t):
+        time.sleep(1)
+        if output:
+            print(i)
 
-for i in range(6):
+def out(msg,output=True):
+    if output:
+        print(msg)
+
+def wait_for_element_to_appear(func, output=False, **kwargs):
+    """
+    hacky way to wait on a html element to appear
+    here used to wait for the whatsapp web app to load
+    """
+    if output:
+        print("waiting:", end="")
+    c = 1
+    while True:
+        time.sleep(1)
+        element = None
+        try:
+          # poll the link with an arbitrary call
+          element = func(*tuple(value for _, value in kwargs.items()))
+
+        except Exception as e: print(str(e))
+
+        if element is not None:
+            print("")
+            return element
+        c += 1
+        if c > 15:
+            raise Exception("Load Time out. Maybe your internet is slow or that contact doesnt exist.")
+
+
+def send_message(message,reciever_name,browser,output=True,show_window=False):
+    """
+    try sending a whatsapp message usinge the system browser
+    - profile_path: for chrome
+    - exe_path: for chrome
+    profile_path="/home/{}/.config/google-chrome/Default".format(os.environ['USER']), exe_path="/opt/google/chrome/google-chrome"
+    """
+    name = reciever_name
+
+    if browser == "firefox":
+        if output:
+            print("trying to connect to firefox browser")
+        fire_options = Options()
+        if not show_window:
+            fire_options.add_argument('--headless')
+        fp = webdriver.FirefoxProfile('/home/tim/.mozilla/firefox/ax36q1xn.default')
+        driver = webdriver.Firefox(fp, options=fire_options)
+    elif browser == "chrome":
+        options = webdriver.ChromeOptions()
+        options.add_argument("--user-data-dir={}".format(profile_path))
+        options.add_argument("--no-startup-window") 
+    else:
+        raise Exception("Unknown browser: {}".format(browser))
+
+    out("connected to browser",output)
+    url = 'https://web.whatsapp.com/'
+    driver.get(url)
+    out("waiting for load ..",output)
+    out("refreshing to doge bot block",output)
+    driver.refresh()
+    wait_for_element_to_appear(driver.find_element_by_xpath, xpath='//*[@title="{}"]'.format(name)).click()
+    out("Entering message",output)
     time.sleep(1)
-    print(i)
+    text_area = driver.switch_to.active_element
+    text_area.send_keys(message)
+    text_area.send_keys(Keys.ENTER)
 
-print("refreshing to doge bot block")
+if __name__ == '__main__':
+    output = True
+    if output:
+        print("starting")
+    parser = argparse.ArgumentParser()
+    parser.add_argument("send",help="send a message",default=True)
+    parser.add_argument("-m", help="message")
+    parser.add_argument("-to", help="contact: by name")
 
-driver.refresh()
+    parser.add_argument("--browser", help="set browser firefox (default) / chrome", default="firefox")
+    parser.add_argument("--visible", help="should the botted browser be visible when run then add this option", default=False)
+    args = parser.parse_args()
+    print(args)
 
+    
+    if args.send:
+        if output:
+            print("attempting send");
+        # ok then lets send a whatsapp message
+        import unittest
+        test = unittest.TestCase()
+        test.assertIsNotNone(args.m, "please add a message to send: -m")
+        test.assertIsNotNone(args.to, "please specify who to send the message to: -to ")
 
-for i in range(6):
-    time.sleep(1)
-    print(i)
+        args = send_message(args.m,args.to,args.browser,show_window=args.visible)
 
-print("Entering message")
-
-driver.find_element_by_xpath('//*[@title="{}"]'.format(name)).click()
-
-time.sleep(1)
-
-class_finder = "copyable-text selectable-text"
-
-text_area = driver.switch_to.active_element
-
-text_area.send_keys(message)
-
-from selenium.webdriver.common.keys import Keys
-
-text_area.send_keys(Keys.ENTER)
