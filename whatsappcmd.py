@@ -1,4 +1,5 @@
 import selenium
+import shlex
 import unittest
 import unittest
 import argparse
@@ -22,6 +23,14 @@ def out(msg,output=True):
     if output:
         print(msg)
 
+def redirect_to_whatapp(driver, output):
+    out("connected to browser",output)
+    url = 'https://web.whatsapp.com/'
+    out("waiting for load ..",output)
+    driver.get(url)
+    out("refreshing to doge bot block",output)
+    driver.refresh()
+
 def wait_for_element_to_appear(func, output=False, **kwargs):
     """
     hacky way to wait on a html element to appear
@@ -43,11 +52,36 @@ def wait_for_element_to_appear(func, output=False, **kwargs):
             print("")
             return element
         c += 1
-        if c > 15:
+        if c > 25:
             raise Exception("Load Time out. Maybe your internet is slow or that contact doesnt exist.")
 
+def start_browser(browser,output=True, show_window=False):
 
-def send_message(message,reciever_name,browser,output=True,show_window=False):
+    firefox_profile_default = '/home/{}/.mozilla/firefox/ax36q1xn.default'.format(os.environ['USER'])
+
+    if browser == "firefox":
+        if output:
+            print("trying to connect to firefox browser")
+        fire_options = Options()
+        if not show_window:
+            fire_options.add_argument('--headless')
+        fp = webdriver.FirefoxProfile(firefox_profile_default)
+        driver = webdriver.Firefox(fp, options=fire_options)
+
+        redirect_to_whatapp(driver,output)
+
+        return driver
+    elif browser == "chrome":
+        driver = webdriver.ChromeOptions()
+        options.add_argument("--user-data-dir={}".format(profile_path))
+        options.add_argument("--no-startup-window") 
+
+        redirect_to_whatapp(driver,output)
+        return driver
+    else:
+        raise Exception("Unknown browser: {}".format(browser))
+
+def send_message(message,reciever_name,browser,output=True,show_window=False, driver=None):
     """
     try sending a whatsapp message usinge the system browser
     - profile_path: for chrome
@@ -56,27 +90,10 @@ def send_message(message,reciever_name,browser,output=True,show_window=False):
     """
     name = reciever_name
 
-    if browser == "firefox":
-        if output:
-            print("trying to connect to firefox browser")
-        fire_options = Options()
-        if not show_window:
-            fire_options.add_argument('--headless')
-        fp = webdriver.FirefoxProfile('/home/tim/.mozilla/firefox/ax36q1xn.default')
-        driver = webdriver.Firefox(fp, options=fire_options)
-    elif browser == "chrome":
-        options = webdriver.ChromeOptions()
-        options.add_argument("--user-data-dir={}".format(profile_path))
-        options.add_argument("--no-startup-window") 
-    else:
-        raise Exception("Unknown browser: {}".format(browser))
+    if driver is None:
+        driver = start_browser(browser,output,show_window)
 
-    out("connected to browser",output)
-    url = 'https://web.whatsapp.com/'
-    driver.get(url)
-    out("waiting for load ..",output)
-    out("refreshing to doge bot block",output)
-    driver.refresh()
+
     wait_for_element_to_appear(driver.find_element_by_xpath, xpath='//*[@title="{}"]'.format(name)).click()
     out("Entering message",output)
     time.sleep(1)
@@ -84,31 +101,48 @@ def send_message(message,reciever_name,browser,output=True,show_window=False):
     text_area.send_keys(message)
     text_area.send_keys(Keys.ENTER)
 
-if __name__ == '__main__':
+def parse_args(raw=None):
+    # raw = raw_input('$: ') so same arguments can be used in the interactive shell
+
     output = True
     if output:
         print("starting")
     parser = argparse.ArgumentParser()
-    parser.add_argument("action",help="send a message",default="send")
+    parser.add_argument("action",help="send a message",default="send", choices=['send', 'list', 'start', 'view'])
     parser.add_argument("-m", help="message")
     parser.add_argument("-to", help="contact: by name")
 
     parser.add_argument("--browser", help="set browser firefox (default) / chrome", default="firefox")
     parser.add_argument("--visible", help="should the botted browser be visible when run then add this option",nargs='?',type=int, const=1)
     parser.add_argument("--timeout", help="amount of time the bot should try to connect, default is 15 seconds",type=int, default=15)
-    args = parser.parse_args()
-    print(args)
-    test = unittest.TestCase()
 
-    
+    if raw is None:
+        args = parser.parse_args()
+    else:
+        raw = shlex.split(raw)
+        print(raw)
+        args = parser.parse_args(raw)
+
+    print(args)
+    return args
+
+def interactive_shell(args, output, test):
+    driver = start_browser(args.browser, output, args.visible)
+    while True:
+        astr = input('> ')
+        if "exit" in astr:
+            out(output, "exiting shell and browser")
+            break
+        args = parse_args(raw=astr)
+        main(args, output, test, driver=driver)
+        print(args)
+
+def main(args, output, test, driver=None):
     if args.action == "send":
         if output:
             print("attempting send");
-        # ok then lets send a whatsapp message
-        test.assertIsNotNone(args.m, "please add a message to send: -m")
-        test.assertIsNotNone(args.to, "please specify who to send the message to: -to ")
-
-        args = send_message(args.m,args.to,args.browser,show_window=args.visible)
+        # ok then lets send a whatsapp message test.assertIsNotNone(args.m, "please add a message to send: -m") test.assertIsNotNone(args.to, "please specify who to send the message to: -to ") 
+        send_message(args.m,args.to,args.browser,show_window=args.visible,driver=driver)
     elif args.action == "list":
         # list available chat contacts
         out(output, "Attemting to get contacts")
@@ -118,4 +152,15 @@ if __name__ == '__main__':
     elif args.action == "shedule message":
         test.assertIsNotNone(args.m, "please add a message to send: -m")
         test.assertIsNotNone(args.to, "please specify who to send the message to: -to ")
+    elif args.action == "start":
+        # start an interactive whatapp session
+        # pre loads the browser so one does not have to wait for whatapp web to load
+        interactive_shell(args, output, test)
+
+if __name__ == '__main__':
+    args = parse_args()
+    output = True
+    test = unittest.TestCase()
+    main(args, output, test) 
+
 
