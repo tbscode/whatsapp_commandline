@@ -36,6 +36,21 @@ optional arguments:
                        this option
 ```
 
+### Or interactive
+
+When sending multiple messages keeps the whatappweb session open, commands are the same.
+
+```
+(bash) user@pc: python whatsappcmd.py start
+Namespace(action='start', browser='firefox', m=None, timeout=15, to=None, visible=1)
+trying to connect to firefox browser
+connected to browser
+waiting for load ..
+ > send -m "Message" -to "<Contact Name>"
+```
+
+
+
 ### Tested
 
 - Ubuntu 18.04 with firefox
