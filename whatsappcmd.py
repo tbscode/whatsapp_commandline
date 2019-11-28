@@ -108,9 +108,8 @@ def list_all_contacts(driver=None,args=None):
     if driver is None:
         driver = start_browser(args.browser,output,args.visible)
         # wait for whatsapp to load by waiting for any title element to appear
-        
         wait_for_element_to_appear(driver.find_element_by_xpath, xpath='//*[@title]')
-    elements = driver.find_elements_by_xpath('//*[@class="_19RFN _1ovWX _F7Vk" and @title]') # _19RFN _1ovWX _F7Vk
+    elements = driver.find_elements_by_xpath('//*[@class="_19RFN _1ovWX _F7Vk" and @title]')
     #loads whatsapp web and then loads all the contact names
     for e in elements:
         print(e.text)
@@ -142,14 +141,15 @@ def parse_args(raw=None):
     if output:
         print("starting")
     parser = argparse.ArgumentParser()
-    parser.add_argument("action",help="send a message",default="send", choices=['send', 'list', 'start', 'view'])
+    action_text = "send: send a message -m -to. list: list available contacts. view: view chat messages -to. start: start interavtive shell"
+    parser.add_argument("action",help=action_text,default="send", choices=['send', 'list', 'start', 'view'])
     parser.add_argument("-m", help="message")
     parser.add_argument("-to", help="contact: by name")
 
     parser.add_argument("--browser", help="set browser firefox (default) / chrome", default="firefox")
     parser.add_argument("--firefox-profile-path",help="to specify other user profile for firefox")
     parser.add_argument("--visible", help="should the botted browser be visible when run then add this option",nargs='?',type=int, const=1)
-    parser.add_argument("--timeout", help="amount of time the bot should try to connect, default is 15 seconds",type=int, default=15)
+    parser.add_argument("--timeout", help="amount of time the bot should try to connect, default is 25 seconds",type=int, default=15)
 
     if raw is None:
         args = parser.parse_args()

@@ -25,15 +25,28 @@ It uses your current browser profile ( firefox / chrome )  to send messages usin
 ` python whatsappcmd.py send -m "Whats upp" -to "<Contact Name>" `
 
 ```sh
+usage: whatsappcmd.py [-h] [-m M] [-to TO] [--browser BROWSER]
+                      [--firefox-profile-path FIREFOX_PROFILE_PATH]
+                      [--visible [VISIBLE]] [--timeout TIMEOUT]
+                      {send,list,start,view}
+
 positional arguments:
-  send                 send a message
+  {send,list,start,view}
+                        send: send a message -m -to. list: list available
+                        contacts. view: view chat messages -to. start: start
+                        interavtive shell
+
 optional arguments:
-  -h, --help           show this help message and exit
-  -m M                 message
-  -to TO               contact: by name
-  --browser BROWSER    set browser firefox (default) / chrome
-  --visible [VISIBLE]  should the botted browser be visible when run then add
-                       this option
+  -h, --help            show this help message and exit
+  -m M                  message
+  -to TO                contact: by name
+  --browser BROWSER     set browser firefox (default) / chrome
+  --firefox-profile-path FIREFOX_PROFILE_PATH
+                        to specify other user profile for firefox
+  --visible [VISIBLE]   should the botted browser be visible when run then add
+                        this option
+  --timeout TIMEOUT     amount of time the bot should try to connect, default
+                        is 25 seconds
 ```
 
 ### Or interactive
