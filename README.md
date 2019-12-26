@@ -6,19 +6,25 @@ Command line tool to schedule send of whats-app messages.
 
 - well so far only sends messages
 - but it will be able to schedule them
-- *only works with cookies enabled*
+- ~~*Only works with cookies enabled*~~ use init to use different browser settings for whatsappcmd 
 
 ## How it works:
 
-It uses your current browser profile ( firefox / chrome )  to send messages using your that browsers Whats-App access token.
+It uses your current browser profile (or a new one ( firefox / chrome ))  to send messages using your that browsers Whats-App access token.
 
-- Doesn't require login
+- Doesn't require login (when using existing cookie)
 - Just a browser with enables cookies and cache
   and logged in to whatsapp web
+
+### Setup with default browser, cookies enabled
 
 1. Login to whatapp web with your browser
 2. check the keep logged in box
 3. close the browser: done
+
+### Login using custom profile
+
+``` whatsappcmd.py init ``` and follow instructions
 
 ## Usage
 
