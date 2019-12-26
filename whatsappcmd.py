@@ -1,4 +1,6 @@
+#!/home/tim/anaconda3/bin/python
 import selenium
+import schedule
 import glob
 import shlex
 import unittest
@@ -23,6 +25,31 @@ def print_wait(t,output):
 def out(msg,output=True):
     if output:
         print(msg)
+
+def initialize():
+    # Just runs the firefox -P option
+    # Todo: add sucess check and firefox installation check
+    os.popen('firefox -P')
+    # Then the user is promted to enter the name of the profile he has just created
+    profile_name = input('Enter Profile Name > ')
+    # Todo: Still assumes profile is at defualt location
+    # creates a config file
+    path = '/home/{}/.config/whatsappcmd'.format(os.environ['USER'])
+    if not os.path.isdir(path):
+        os.mkdir(path)
+
+    print("Now start with that profile and login to whatsapp web, then close the window")
+    with open("{}/config".format(path), "w") as file:
+        file.write("{} {}".format('firefox_profile',profile_name))
+
+    # Then start that profile for the first time and ask user to login
+    # driver = start_browser("firefox",show_window=True)
+    # input("Press any key when login completed")
+    # TODO Doesnt seem to save profile correctlyafter closing
+    # Then get the whatspp cookie copy it
+    # for c in driver.get_cookies():
+    #   print(c['name'] + c['location'])
+
 
 def redirect_to_whatapp(driver, output):
     out("connected to browser",output)
@@ -56,9 +83,30 @@ def wait_for_element_to_appear(func, output=False, **kwargs):
         if c > 25:
             raise Exception("Load Time out. Maybe your internet is slow or that contact doesnt exist.")
 
+def load_config():
+    # Load config from the default location
+    # And puts it in a dict
+    with open('/home/{}/.config/whatsappcmd/config'.format(os.environ['USER'])) as config:
+        data = config.read().split('\n')
+    dict = {}
+    for d in data:
+        line = d.split(' ')
+        if len(line) >= 2:
+            dict[line[0]] = line[1]
+    return dict
+
 def start_browser(browser,output=True, show_window=False,firefox_profile=None):
     # tries to find fire fox profile under its default linux user install path
-    firefox_profile_default = glob.glob('/home/{}/.mozilla/firefox/*.default'.format(os.environ['USER']))[0]
+    # Check if a different profile was set:
+    config = load_config()
+    if config['firefox_profile'] is not None:
+        profile_name = config['firefox_profile']
+        # Loads the profile from the default location (under linux)
+        firefox_profile = glob.glob('/home/{}/.mozilla/firefox/*.{}'.format(os.environ['USER'], profile_name))[0]
+    else:
+        firefox_profile_default = glob.glob('/home/{}/.mozilla/firefox/*.default'.format(os.environ['USER']))[0]
+
+    print("selected profile {}".format(firefox_profile))
 
     if firefox_profile is None:
         firefox_profile = firefox_profile_default
@@ -142,7 +190,7 @@ def parse_args(raw=None):
         print("starting")
     parser = argparse.ArgumentParser()
     action_text = "send: send a message -m -to. list: list available contacts. view: view chat messages -to. start: start interavtive shell"
-    parser.add_argument("action",help=action_text,default="send", choices=['send', 'list', 'start', 'view'])
+    parser.add_argument("action",help=action_text,default="send", choices=['send', 'list', 'start', 'view', 'init'])
     parser.add_argument("-m", help="message")
     parser.add_argument("-to", help="contact: by name")
 
@@ -196,6 +244,9 @@ def main(args, output, test, driver=None):
         # start an interactive whatapp session
         # pre loads the browser so one does not have to wait for whatapp web to load
         interactive_shell(args, output, test)
+    elif args.action == "init":
+        # Can initialize a different firefox profile instance, for the user to allow cookisless browsing on his normal instace
+        initialize()
 
 if __name__ == '__main__':
     args = parse_args()
